@@ -1,118 +1,111 @@
-# 🧮 Advanced Calculator Web App
+# 🧮 Python Streamlit Calculator
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+<img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python" />
+<img src="https://img.shields.io/badge/Streamlit-Web_App-red?style=for-the-badge&logo=streamlit" />
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 
-![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?style=for-the-badge&logo=streamlit)
+### 🚀 A Modern Calculator Web Application Built with Python & Streamlit
 
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-
-![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+Perform mathematical operations through an elegant web interface with built-in error handling and a responsive design.
 
 </div>
 
 ---
 
-## 📌 Project Overview
+# 📖 Overview
 
-The **Advanced Calculator Web App** is a modern calculator developed using **Python** and **Streamlit**.
+**Python Streamlit Calculator** is a beginner-friendly web application developed using **Python** and **Streamlit**. The project transforms a traditional command-line calculator into an interactive web application with a clean user interface.
 
-This application allows users to perform various mathematical operations through an interactive web interface instead of using a traditional command-line calculator.
+This project demonstrates:
 
-The project is designed for:
-
-- 🎓 Python Beginners
-- 📊 Data Science Students
-- 💻 Streamlit Learners
-- 🚀 Portfolio Building
-- 🏆 Academic Projects
+* 🐍 Python Programming Fundamentals
+* 🚀 Streamlit Web Development
+* 🎨 User Interface Design
+* ⚡ Mathematical Operations
+* 🛡️ Error Handling
+* 📦 Git & GitHub Workflow
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### ➕ Addition
-Perform addition between two numbers.
+## ➕ Addition
 
-### ➖ Subtraction
-Calculate the difference between two numbers.
+Add two numbers instantly.
 
-### ✖️ Multiplication
-Multiply two values instantly.
+## ➖ Subtraction
 
-### ➗ Division
-Perform division with proper error handling.
+Find the difference between two numbers.
 
-### 🔥 Power Calculation
+## ✖️ Multiplication
+
+Multiply values accurately.
+
+## ➗ Division
+
+Perform safe division with zero-division protection.
+
+## 🔥 Power Operation
+
 Calculate exponential values.
 
 Example:
 
-2⁵ = 32
+2^5 = 32
 
-### 📉 Floor Division
-Returns the floor value after division.
+## 📉 Floor Division
+
+Return quotient without decimal values.
 
 Example:
 
 10 // 3 = 3
 
-### ❌ Error Handling
+## 🛡️ Error Handling
 
-The application prevents:
+The application handles:
 
-- Division by Zero
-- Invalid Inputs
-- Runtime Errors
-
----
-
-## 🖥️ Application Preview
-
-### Home Screen
-
-```
-🧮 Advanced Calculator
-
-Enter Number 1
-Enter Number 2
-
-Select Operation
-
-[ Addition ]
-[ Subtraction ]
-[ Multiplication ]
-[ Division ]
-[ Power ]
-[ Floor Division ]
-
-[ Calculate ]
-```
-
-### Output
-
-```
-✅ Result : 125
-```
+* Division by Zero
+* Invalid Inputs
+* Runtime Errors
+* User Mistakes
 
 ---
 
-## 🛠️ Technologies Used
+# 🖥️ User Interface
 
-| Technology | Purpose |
-|------------|----------|
-| 🐍 Python | Backend Logic |
-| 🚀 Streamlit | Web Application Framework |
-| 🎨 HTML/CSS | UI Styling |
-| 📦 Git & GitHub | Version Control |
+The calculator provides:
+
+✅ Clean Layout
+
+✅ Interactive Components
+
+✅ Responsive Design
+
+✅ User-Friendly Experience
+
+✅ Fast Calculations
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Technologies Used
+
+| Technology   | Purpose           |
+| ------------ | ----------------- |
+| 🐍 Python    | Application Logic |
+| 🚀 Streamlit | Web Framework     |
+| 📦 Git       | Version Control   |
+| 🌐 GitHub    | Project Hosting   |
+
+---
+
+# 📂 Project Structure
 
 ```bash
-Advanced-Calculator-App/
+Python-Streamlit-Calculator/
 │
 ├── app.py
 ├── requirements.txt
@@ -122,51 +115,45 @@ Advanced-Calculator-App/
 
 ---
 
-## ⚙️ Installation Guide
+# ⚙️ Installation
 
-### Step 1: Clone Repository
-
-```bash
-git clone https://github.com/yourusername/streamlit-advanced-calculator-app.git
-```
-
-### Step 2: Move Into Project
+## 1️⃣ Clone Repository
 
 ```bash
-cd streamlit-advanced-calculator-app
+git clone https://github.com/yourusername/Python-Streamlit-Calculator.git
 ```
 
-### Step 3: Create Virtual Environment
+## 2️⃣ Move Into Project Folder
+
+```bash
+cd Python-Streamlit-Calculator
+```
+
+## 3️⃣ Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate Environment
-
-#### Windows
+### Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-#### Linux / Mac
+### Linux / macOS
 
 ```bash
 source venv/bin/activate
 ```
 
----
-
-### Step 4: Install Dependencies
+## 4️⃣ Install Required Packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-### Step 5: Run Application
+## 5️⃣ Run Streamlit App
 
 ```bash
 streamlit run app.py
@@ -174,7 +161,7 @@ streamlit run app.py
 
 ---
 
-## 📦 Requirements
+# 📦 Requirements
 
 ```txt
 streamlit
@@ -182,58 +169,37 @@ streamlit
 
 ---
 
-## 🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
-After completing this project, you will learn:
+By completing this project, you will understand:
 
-✅ Python Functions
-
-✅ Conditional Statements
-
-✅ Error Handling
-
-✅ Streamlit Basics
-
-✅ User Input Handling
-
-✅ Web Application Development
-
-✅ GitHub Project Management
+* Python Functions
+* Conditional Statements
+* Mathematical Operations
+* Error Handling
+* Streamlit Components
+* User Input Management
+* Web App Deployment
+* GitHub Repository Management
 
 ---
 
-## 🚀 Future Enhancements
+# 📸 Screenshots
 
-Planned features:
-
-- 📈 Scientific Calculator
-- 🔢 Percentage Calculator
-- 🧮 BMI Calculator
-- 💱 Currency Converter
-- 📅 Age Calculator
-- 🌙 Dark Mode
-- 📜 Calculation History
-- 📥 Export Results to CSV
-- 🤖 AI-Powered Math Assistant
-
----
-
-## 📸 Screenshots
-
-Create a folder named:
+Create a folder:
 
 ```bash
 screenshots/
 ```
 
-Add screenshots:
+Add your application screenshots:
 
 ```bash
 screenshots/home.png
 screenshots/result.png
 ```
 
-Then display:
+Display them in README:
 
 ```md
 ![Home](screenshots/home.png)
@@ -243,50 +209,70 @@ Then display:
 
 ---
 
-## 🤝 Contributing
+# 🚀 Future Enhancements
 
-Contributions are welcome!
+Planned upgrades include:
 
-Steps:
+* 📈 Scientific Calculator
+* 🧮 Percentage Calculator
+* 💱 Currency Converter
+* 📅 Age Calculator
+* 📊 BMI Calculator
+* 🌙 Dark Mode
+* 📜 Calculation History
+* 📥 Export Results
+* 🤖 AI Math Assistant
+* ☁️ Cloud Deployment
 
-1. Fork Repository 🍴
-2. Create New Branch 🌿
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+### Steps
+
+1. Fork the repository 🍴
+
+2. Create a new branch 🌿
 
 ```bash
 git checkout -b feature-name
 ```
 
-3. Commit Changes 💾
+3. Commit changes 💾
 
 ```bash
-git commit -m "Added New Feature"
+git commit -m "Added new feature"
 ```
 
-4. Push Branch 🚀
+4. Push branch 🚀
 
 ```bash
 git push origin feature-name
 ```
 
-5. Create Pull Request 🎉
+5. Open Pull Request 🎉
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this project helpful:
+If you found this project useful:
 
-🌟 Star this repository
+⭐ Star the Repository
 
-🍴 Fork this repository
+🍴 Fork the Repository
 
-📢 Share with your friends
+📢 Share with Others
+
+💬 Give Feedback
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Shobhit Srivastava**
+## Shobhit Srivastava
 
 💼 Aspiring Data Scientist
 
@@ -296,9 +282,10 @@ If you found this project helpful:
 
 🚀 Streamlit Learner
 
+
 ---
 
-## 📜 License
+# 📜 License
 
 This project is licensed under the MIT License.
 
@@ -306,7 +293,7 @@ This project is licensed under the MIT License.
 
 <div align="center">
 
-### ⭐ Don't Forget to Star the Repository ⭐
+## ⭐ Star This Repository If You Like It ⭐
 
 Made with ❤️ using Python & Streamlit
 
