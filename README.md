@@ -119,7 +119,7 @@ Python-Streamlit-Calculator/
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Python-Streamlit-Calculator.git
+git clone https://github.com/Shobhit-Srivas/Python-Streamlit-Calculator.git
 ```
 
 ## 2️⃣ Move Into Project Folder
