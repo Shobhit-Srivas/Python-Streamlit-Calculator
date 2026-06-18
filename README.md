@@ -110,7 +110,6 @@ Python-Streamlit-Calculator/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-└── screenshots/
 ```
 
 ---
@@ -181,31 +180,6 @@ By completing this project, you will understand:
 * User Input Management
 * Web App Deployment
 * GitHub Repository Management
-
----
-
-# 📸 Screenshots
-
-Create a folder:
-
-```bash
-screenshots/
-```
-
-Add your application screenshots:
-
-```bash
-screenshots/home.png
-screenshots/result.png
-```
-
-Display them in README:
-
-```md
-![Home](screenshots/home.png)
-
-![Result](screenshots/result.png)
-```
 
 ---
 
